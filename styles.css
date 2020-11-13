@@ -80,9 +80,20 @@ h3 {
     display: inline-block;
 }
 
+
 .stars-span{
     margin-right: 3%;
+
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.stars-span img{
+    margin-right: .3em;
+}
+
 .rate-main{
 
     width: 100%;
@@ -91,12 +102,7 @@ h3 {
     align-items: center;
     justify-content: right;
     
-    
 }
-
-
-
-
 
 .rate-main__stars{
 
@@ -108,6 +114,7 @@ h3 {
     background-color: hsl(300, 24%, 96%);
     width: 50%;
     height: 4.4rem;
+    flex-wrap: nowrap;
     padding-left: 1em;
     border-radius: .350em;
     margin-top: 1.8rem;
@@ -144,7 +151,7 @@ h3 {
 .testimonial-section{
     display:flex;
     justify-content: center;
-    height: 35vh;
+    height: fit-content;
 }
 
 .card-title{
