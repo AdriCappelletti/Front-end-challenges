@@ -184,6 +184,7 @@ h3 {
 
 .testimonial p{
     color: hsl(300, 24%, 96%);
+    line-height: 2em;
 }
 
 .testimonial h2{
